@@ -1,0 +1,10 @@
+# Partner data stays out of this repository
+data/*
+!data/README.md
+.venv/
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.env
+.DS_Store

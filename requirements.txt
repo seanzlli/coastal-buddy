@@ -1,0 +1,5 @@
+# Python packages for the backend and the rule-based detector.
+# (The LSTM predictor in predictor/ has its own extra dependencies, e.g. torch.)
+-r backend/requirements.txt
+pandas
+numpy

@@ -1,0 +1,11 @@
+# Render Blueprint: one free web service built from the Dockerfile.
+# In Render: New -> Blueprint -> pick this repo.
+services:
+  - type: web
+    name: aveiro-water-monitor
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/inject
+    envVars:
+      - key: RUN_DETECTOR
+        value: "1"
